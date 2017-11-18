@@ -1,0 +1,89 @@
+http://jsbin.com/
+
+data types:
+----------
+A. primitives
+        1. string
+        2. numbers
+        3. boolean
+        4. null
+        5. undefined
+        6. symbol ( es6 )
+
+B. reference
+        --> objects
+
+primitives vs reference
+-----------------------
+var firstPerson = {name: "bartha"};
+var secondPerson = firstPerson;
+
+firstPerson.name = "sara";
+
+---------------------------------------------------------------------------------------
+
+New string features:
+--------------------
+->String interpolation
+        console.log(`Hello ${first} ${last}!`); (template literals)
+->Multiline
+->String.raw`Not a newline: \n`;
+->iterable
+->startsWith, endsWith, includes, repeat
+
+------------------------------------------------------------------------------------------
+
+Symbols:
+--------
+->allows to create a unique identifier
+
+-------------------------------------------------------------------------------------------
+
+Objects:
+--------
+-> allowa spaces in key
+-> if key and values are same, can use only value
+
+------------------------------------------------------------------------------------------
+
+Variables and scoping:
+---------------------
+ ->this
+ ->let vs var
+    var updateFuncs = [];
+    for (let i = 0; i < 2; i++){
+        updateFuncs.push(function () { 
+            return i;
+        });
+    }
+
+De-structuring:
+---------------
+->spread
+->rest
+
+Parameter handling:
+------------------
+->arguments with default values
+
+Arrow functions:
+----------------
+
+Map and Sets:
+------------
+const person = new Map()
+person.set("name","sara")
+person.get("name")
+
+const person = new Set()
+person.add("name")
+person.has("name")
+
+
+
+Class: 
+// es5  -- constructor function ( class )
+// function Person(name, age) {}
+
+// Person.prototype.sayName = function () {}
+
