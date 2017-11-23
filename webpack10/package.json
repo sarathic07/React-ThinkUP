@@ -1,0 +1,33 @@
+{
+  "name": "webpack10",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=dev webpack-dev-server --port 8181 --hot --inline",
+    "start:dev": "cross-env NODE_ENV=dev webpack --config webpack.config.js",
+    "start:prod": "cross-env NODE_ENV=prod webpack --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "cross-env": "^5.1.1",
+    "css-loader": "^0.26.1",
+    "file-loader": "^0.10.0",
+    "json-loader": "^0.5.4",
+    "url-loader": "^0.5.7",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^2.30.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
