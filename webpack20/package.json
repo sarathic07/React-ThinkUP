@@ -1,0 +1,18 @@
+{
+  "name": "webpack20",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack",
+    "start:dev": "webpack-dev-server",
+    "start:prod": "webpack -p"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^2.7.0",
+    "webpack-dev-server": "^2.9.4"
+  }
+}
