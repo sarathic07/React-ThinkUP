@@ -1,0 +1,18 @@
+
+for cloning repository:
+git clone -b master https://github.com/sarathic07/React-ThinkUP
+
+git status:
+show the untracked files
+
+TO create new branch: 
+ git checkout -b develop
+
+ to stage the untracked files: 
+ git add git\ eg.txt
+
+ To commit the changes:
+git commit -m "creating git example"
+
+To push origin:
+git push origin develop
