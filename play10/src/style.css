@@ -1,0 +1,43 @@
+#star-section .well, #output-section .well {
+    height: 225px;
+}
+
+#star-section, #output-section {
+    width: 40%;
+    float: left;
+}
+
+#button-section {
+    width: 20%;
+    float: left;
+    text-align: center;
+    margin-top: 90px;
+}
+
+#star-section .glyphicon {
+    margin: 0.3em;
+    font-size: 1.75em;
+}
+
+#number-section .number, #output-section .well span {
+    display: inline-block;
+    margin: 0.5em;
+    background-color: #bbb;
+    width: 30px;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#number-section .selected-true {
+    background-color: #e8e8e8;
+    color: #ddd;
+    cursor: not-allowed;
+}
+
+#number-section .used-true {
+    background-color: #aaddaa;
+    color: #99bb99;
+    cursor: not-allowed;
+}
