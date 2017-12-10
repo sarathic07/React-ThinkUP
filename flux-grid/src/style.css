@@ -1,0 +1,7 @@
+    .input-group{
+        padding: 20px;
+    }
+    .input-group span {
+        width: 25%;
+        text-align: left;
+    }

@@ -1,0 +1,8 @@
+start mongoDb:
+--------------
+run -> & 'C:\Program Files\MongoDB\Server\3.3\bin\mongod.exe' --dbpath=d:\data\db
+
+
+in new window got to "C:\Program Files\MongoDB\Server\3.3\bin"
+--------------------------------------------------------------
+run -> ./mongo 
