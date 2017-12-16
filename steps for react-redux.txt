@@ -1,0 +1,5 @@
+1) create store using reducer (add middleware if async calls avail)
+2) create reducer with arg initialState and action (use combine reducer if multiple reducer)
+3) create actions
+4) in main index file add Provider as wrapper for App component with props as configured store.
+5) in App component Connect mapStateToProps and mapDispatchtoProps to receive as props for App component.
